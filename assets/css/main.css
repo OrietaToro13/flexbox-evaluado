@@ -1,0 +1,146 @@
+body {
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 1.71429;
+  background-color: #fff;
+  /* Enlaza la tipografia Open Sans */
+    font-family: 'Raleway', sans-serif;
+}
+.flex-container{
+	display: flex;
+}
+/* container */
+.menu-superior{
+	position: fixed;
+	background-color: #2C3E50;
+	width: 100%;
+    height: 100px;
+}
+.title{
+	justify-content: flex-start;
+	align-items: center;
+    color: white;
+    font-weight: black;
+	display: inline-flex;
+    width: 20%;
+    margin-left: 9%;
+    padding-top: 1%;
+}
+.botonera{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-end;
+	width: 60%;
+	display: inline-flex;
+    color: white;
+}
+a{  
+	display: inline-flex;
+	justify-content: flex-end;
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+    margin-right: 2%;
+}
+/* perfil */
+.perfil {
+	justify-content: center;
+	padding-top: 100px; 
+	width: 100%;
+	height: 700px;
+	background-color: #18BC9C;
+	color: white;
+}
+.perfil{
+	display: flex; 
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+/* portafolio */
+.portafolio .flex-container{
+	background-color: white;
+	height: 950px;
+	width: 100%;
+	font-weight: bold;
+}
+#estrellaAzul{
+	display: flex;
+	width: 12%;
+	height: 4%;
+}
+.title2 h2{
+	margin: 0px;
+}
+.title2{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	width: 100%
+	height: 400px;	
+}
+.title2 img{
+	align-items: center;
+}
+#uno img{
+	width: 300px;
+	align-self: baseline;
+	justify-content: center;
+	padding: 2%;
+}
+.pictures{
+	display: flex;
+	justify-content: space-around;
+	justify-content: center;
+	margin-right: 4%;
+	padding-bottom: 4%;
+}
+/* about */
+.about{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 100%;
+	height: 450px;
+	background-color: #18BC9C;
+	color: white;
+}
+.about{
+	justify-content: center;
+	align-items: center;
+}
+#estrella3{
+	align-items: center;
+	width: 15%;
+	height: 6%;
+}
+.about h1 p{
+	width: 70%;
+	display: flex;	
+	flex-direction: column;
+	justify-content: center;
+}
+.textos{
+	display: flex;
+	justify-content: center;
+}
+#parrafo1{
+	display: inline-flex;
+	width: 30%;
+}
+#parrafo2{
+	display: inline-flex;
+	width: 30%;
+}
+.downloadTheme{
+	display: inline-flex;
+	width: 10%;
+	padding: 1%;
+	text-align: center;
+	border: 2px solid white;
+	font-family: sans-serif;
+}
